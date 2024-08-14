@@ -1,0 +1,43 @@
+/* necessary google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* default styles */
+body {
+    font-family: work sans;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* nav-section-style */
+nav {
+    text-align: center;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-title {
+    font-size: 3rem;
+}
+
+.nav-title span {
+    color: #ff42a5;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
