@@ -486,6 +486,39 @@ footer {
 .footer-bar {
     color: #ffffffa6;
 }
+
+.text-container {
+    animation: showAnimation 0.5s linear 1 forwards;
+    transform: translateX(-200px);
+}
+
+@keyframes showAnimation {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.container-2 {
+    animation: showAnimation 0.5s linear 1 forwards;
+    transform: translateX(200px);
+}
+
+@keyframes showAnimation {
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.img-container {
+    animation: showAnimation 0.5s linear 1 forwards;
+    transform: translateX(200px);
+}
+
+.img-container2 {
+    animation: showAnimation 0.5s linear 1 forwards;
+    transform: translateX(-200px);
+}
+
 /* media query starts */
 @media screen and (min-width: 640px) {
     .box-shadow {
